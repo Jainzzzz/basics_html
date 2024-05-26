@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/contactus.php">
+       
+        
+        Name:<input type="text" placeholder="Enter Text"><br>
+<br>
+        <label for="Age"> Age:</label>
+       
+        <input type="number" id="Age"  placeholder="i.e. 22" required><br>
+       
+        Enter your fav book name:<input type="text" placeholder="i.e. My Home"><br>
+        <br>
+    
+        <label for="user_Password">password:</label>
+        <input id="Password:" type="password"><br>
+       
+        Date:<input type="date"><br>
+        File:<input type="file"><br>
+        colour:<input type="color"><br>
+       Price Range:<input type="range"><br>
+         Poke Me:<input type="button" value="poked"><br>
+            <label for="Male">Male:</label>
+            <input type="radio" id="Male" name="Gender" value="Male"><br>
+            <label for="Female">Female:</label>
+            <input type="radio" id="Female" name="Gender" value="Female"><br>
+            <label for="Other">Other:</label>
+            <input type="radio" id="Other" name="Gender" value="Other"><br>
+            
+<br>
+<br>
+
+            <label for="c">C</label>
+            <input type="checkbox" name="language" id="c" value="C"><br>
+       
+            <label for="python">python</label>
+            <input type="checkbox" name="language" id="python" value="python"><br>
+  
+            <label for="c++">C++</label>
+            <input type="checkbox" name="language" id="c++" value="c++">
+    <br>
+    <br>
+<label for="country">Select Your Contry</label>
+    <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="US">USA</option>
+        <option value="China">China</option>
+        <option value="Australia">Australia</option>
+    </select>
+    <br>
+    <br>
+
+    <textarea name="story" id="story" cols="20" rows="4">
+        Please write text
+    </textarea>
+<br>
+<br>
+<iframe width="300" height="200" src="https://www.youtube.com/embed/rklidcZ-aLU?si=Sd1C3M-4tqbdxZgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="300" height="200" src="https://www.wikipedia.org/"></iframe>
+
+    </form>  
+</body>
+</html>
